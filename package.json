@@ -1,0 +1,30 @@
+{
+  "name": "atm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Basic CLI  ATM system a node project",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsanmusgal1803/atm.git"
+  },
+  "bin": {
+    "atm63": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Faiza Mughal",
+  "license": "ISC",
+  "dependencies": {
+    "and": "^0.0.3",
+    "chalk": "^5.3.0",
+    "git": "^0.1.5",
+    "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.8.9"
+  }
+}
